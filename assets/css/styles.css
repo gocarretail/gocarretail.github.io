@@ -1202,3 +1202,36 @@ transform: scale(1.2);
     right: 2.8rem;
   }
 }
+
+/* slider */
+.slider-container {
+  overflow: hidden;
+  width: 80%; /* Adjust width as needed */
+  margin: 0 auto; /* Center the slider */
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.product {
+  flex: 0 0 auto;
+  width: 100%; /* Adjust width as needed */
+  padding: 10px;
+  text-align: center;
+}
+
+.prev-btn,
+.next-btn {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  background-color: #555;
+}
