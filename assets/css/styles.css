@@ -251,7 +251,7 @@ padding-top: 9rem;
   text-align: center;
 }
 .home__title{
-  font-size: 4rem;
+  font-size: 3.5rem;
   margin-bottom: 1rem;
 }
 .home__subtitle{
@@ -259,7 +259,7 @@ padding-top: 9rem;
   margin-bottom: .25rem;
 }
 .home__elec{
-  font-size: var(--normal-font-size);
+  font-size: var(--small-font-size);
   font-weight: 700;
   color: var(--text-color);
   display: inline-flex;
