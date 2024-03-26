@@ -83,14 +83,18 @@
                         Your Satisfaction Is Our Driving Force.
                     </h3>
                 </div>
-             <div class="slider-container">
+                <div class="slider-container">
                     <div class="slider">
-                      <div class="product"><img src="assets/img/img1.png" alt="" class="home__img"></div>
-                      <div class="product"><img src="assets/img/img2.png" alt="" class="home__img"></div>
-                      <div class="product"><img src="assets/img/img3.png" alt="" class="home__img"></div>
-                      <div class="product"><img src="assets/img/img4.png" alt="" class="home__img"></div>
+                      <img src="assets/img/img1.png" alt="Image 1">
+                      <img src="assets/img/img2.png" alt="Image 2">
+                      <img src="assets/img/img3.png" alt="Image 3">
+                      <img src="assets/img/img4.png" alt="Image 4">
+                      <img src="assets/img/img1.png" alt="Image 5">
+                      <img src="assets/img/img1.png" alt="Image 6">
+                      <img src="assets/img/img1.png" alt="Image 7">
                     </div>
-                  </div> 
+                  </div>
+                                 
 
                 <div class="slider__bg">
                 <div class="slider__bg-navBtn active"></div>
@@ -592,28 +596,5 @@
 
 
 </body>
-<script>let slideIndex = 0;
-    const autoSlideInterval = 2000; // Adjust interval (in milliseconds) as needed
-    
-    function moveSlider(direction) {
-      const slides = document.querySelectorAll('.product');
-      const slideWidth = slides[0].offsetWidth;
-      const slider = document.querySelector('.slider');
-    
-      slideIndex += direction;
-      if (slideIndex < 0) {
-        slideIndex = slides.length - 1;
-      } else if (slideIndex >= slides.length) {
-        slideIndex = 0;
-      }
-    
-      slider.style.transform = `translateX(-${slideIndex * slideWidth}px)`;
-    }
-    
-    function autoSlide() {
-      moveSlider(1); // Move to the next slide
-    }
-    
-    setInterval(autoSlide, autoSlideInterval); // Start automatic sliding</script>
 
 </html>
