@@ -1204,34 +1204,35 @@ transform: scale(1.2);
 }
 
 /* slider */
+/* slider */
 .slider-container {
   overflow: hidden;
-  width: 80%; /* Adjust width as needed */
-  margin: 0 auto; /* Center the slider */
+  width: 80%; /* Adjust size as needed */
+  max-width: 400px; /* Adjust max-width as needed */
+  margin: 0 auto;
 }
 
 .slider {
   display: flex;
-  transition: transform 0.5s ease;
+  animation: slide 15s linear infinite; /* Adjust duration as needed */
 }
 
-.product {
+.slider img {
+  width: 100%;
+  object-fit: cover;
   flex: 0 0 auto;
-  width: 100%; /* Adjust width as needed */
-  padding: 10px;
-  text-align: center;
 }
 
-.prev-btn,
-.next-btn {
-  cursor: pointer;
-  padding: 10px 20px;
-  background-color: #333;
-  color: #fff;
-  border: none;
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-600%); /* Adjust percentage based on number of images */
+  }
 }
 
-.prev-btn:hover,
-.next-btn:hover {
-  background-color: #555;
+/* Optional: Hide overflow to prevent scrollbar */
+body {
+  overflow-x: hidden;
 }
