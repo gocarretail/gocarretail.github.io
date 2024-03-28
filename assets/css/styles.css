@@ -258,9 +258,9 @@ padding-top: 9rem;
   font-size: var(--h3-font-size);
   margin-bottom: .25rem;
 }
-.home__elec{
+.home__elec h3{
   font-size: var(--small-font-size);
-  font-weight: 700;
+  font-weight: 7000;
   color: var(--text-color);
   display: inline-flex;
   align-items: center;
@@ -271,11 +271,12 @@ padding-top: 9rem;
   color: var(--first-color);
 
 }
-.home__img{
-  width: 280px;
-  justify-self: center;
-  
 
+
+.home__img{
+  width: 150px;
+  justify-self: center;
+  margin-top: -6rem;
 }
 .home__car{
   display: flex;
@@ -744,9 +745,7 @@ transform: scale(1.2);
 .featured__card:hover .featured__img{
   transform: translateX(-.30rem);
 }
-.featured__button:hover{
 
-}
 
 /* Active link featured */
 
@@ -799,17 +798,18 @@ transform: scale(1.2);
 }
 .offer__title{
   margin-bottom: 2rem;
+  color: #90ee90;
 }
 .offer__description{
   margin-bottom: 3rem;
+  color: #90ee90;
 }
 .offer__img{
-  position: absolute;
+  position: relative;
   max-width: initial;
-  width: 400px;
-  
-  bottom: 2rem;
-  right: -5.5rem;
+  width: 200px; 
+  bottom: 0.5rem;
+  right: -6rem;
 }
 /*=============== LOGOS ===============*/
 
@@ -908,10 +908,10 @@ transform: scale(1.2);
   margin-top: 4.5rem;
   text-align: center;
   font-size: var(--smaller-font-size);
-  color: rgb(199, 158, 47);
+  color: rgb(12, 1, 27);
 }
 .footer__dev-link{
-  color: #F76400;
+  color: #f70000;
 }
 .footer__dev-link::before{
  
@@ -999,11 +999,7 @@ transform: scale(1.2);
   .section{
     padding: 7rem 0 2rem;
   }
-  .nav{
-    /* margin-top: 1rem;
-    margin-bottom: 1rem;
-    height: calc(var(--header-height)+ 1.5rem); */
-  }
+  
   .nav__toggle,
   .nav__close{
     display: none;
@@ -1049,7 +1045,7 @@ transform: scale(1.2);
     padding-top: 2rem;
   }
   .home__img{
-    width: 380px;
+    width: 150px;
   }
   .home__car{
     column-gap: 10rem;
@@ -1154,6 +1150,7 @@ transform: scale(1.2);
   .offer__data,
   .offer__title{
     text-align: initial;
+    color: #90ee90;
   }
   .offer__data{
     margin-bottom: 0;
@@ -1204,7 +1201,6 @@ transform: scale(1.2);
 }
 
 /* slider */
-/* slider */
 .slider-container {
   overflow: hidden;
   width: 80%; /* Adjust size as needed */
@@ -1235,4 +1231,172 @@ transform: scale(1.2);
 /* Optional: Hide overflow to prevent scrollbar */
 body {
   overflow-x: hidden;
+}
+
+/*contact*/
+.contact-form-wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.contact-details{
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.contact-details h2{
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-details ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contact-details ul li {
+  margin-bottom: 10px;
+}
+
+.map-section {
+  margin-top: 40px;
+}
+
+.map-section h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.map-section iframe {
+  width: 100%;
+  height: 400px;
+  border: 1px solid #ccc; /* Add border for better visibility */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .contact-form-wrapper {
+    padding: 10px;
+  }
+}
+
+
+/* about */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container-a {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+main {
+  padding: 20px;
+}
+
+.about-section,
+.mission-section,
+.products-section,
+.manufacturing-section,
+.satisfaction-section,
+.why-choose-section {
+  margin-bottom: 40px;
+}
+
+.about-section h2,
+.mission-section h2,
+.products-section h2,
+.manufacturing-section h2,
+.satisfaction-section h2,
+.why-choose-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about-section p,
+.mission-section p,
+.products-section p,
+.manufacturing-section p,
+.satisfaction-section p,
+.why-choose-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.why-choose-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.why-choose-section ul li {
+  margin-bottom: 10px;
+}
+
+
+.container-a {
+  /* Your existing styles */
+  opacity: 0; /* Start with opacity 0 */
+}
+
+.slide-up {
+  animation: slideUp 1.5s ease forwards; /* Apply animation */
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0; /* Start with opacity 0 */
+    transform: translateY(100%); /* Start from bottom */
+  }
+  100% {
+    opacity: 1; /* End with opacity 1 */
+    transform: translateY(0); /* Slide to top */
+  }
 }
