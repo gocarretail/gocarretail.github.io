@@ -32,13 +32,13 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">Home</a>
+                        <a href="" class="nav__link active-link">Home</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#about" class="nav__link ">Contact Us</a>
+                        <a href="contact/" class="nav__link ">Contact Us</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#about" class="nav__link ">About</a>
+                        <a href="about/" class="nav__link ">About</a>
                     </li>
                     <li class="nav__item">
                         <a href="#popular" class="nav__link">Accessories & Parts</a>
@@ -70,8 +70,10 @@
             <div class="shapeX shape__small"></div>
 
 
+          
             <div class="home__container container grid">
                 <div class="home__data">
+                    <img src="assets/img/logo.png" alt="" class="home__img">
                     <h1 class="home__title">
                         GoCarRetail
                     </h1>
@@ -90,8 +92,8 @@
                       <img src="assets/img/img3.png" alt="Image 3">
                       <img src="assets/img/img4.png" alt="Image 4">
                       <img src="assets/img/img1.png" alt="Image 5">
-                      <img src="assets/img/img1.png" alt="Image 6">
-                      <img src="assets/img/img1.png" alt="Image 7">
+                      <img src="assets/img/img2.png" alt="Image 6">
+                      <img src="assets/img/img3.png" alt="Image 7">7
                     </div>
                   </div>
                                  
@@ -126,7 +128,7 @@
         </section> -->
 
         <!--==================== ABOUT ====================-->
-        <section class="about section" id="about">
+        <!-- <section class="about section" id="about">
             <div class="about__container container grid">
                 <div class="about__group">
                     <img src="assets/img/about.png" alt="" class="about__img">
@@ -139,23 +141,56 @@
 
                 <div class="about__data">
                     <h2 class="section__title about__title">About Us</h2>
-                    <p class="about__description">See the future with high-performance electric cars produced by
-                        renowned brands. They feature futuristic builds and designs with
-                        new and innovative platforms that last a long time.</p>
+                    <p class="about__description">test</p>
 
-                   <!-- <a href="#" class="button">Know More</a> --->
+                    <a href="#" class="button">Know More</a> 
                 </div>
-
-
             </div>
-
-
-        </section>
-
+        </section> -->
+        <h2 class="section__title" id="contact">Contact Us</h2>
+        <h2 class="section__title">
+            Fill The Form:
+        </h2>
+        <div class="contact-form-wrapper">
+            <form action="" method="post">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" maxlength="50" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Eg: client@email.com" maxlength="100" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Eg: 12345467890" maxlength="10" pattern="[0-9]{10}" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" maxlength="1000" required></textarea>
+              </div>
+              <div class="form-group">
+                <button type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+          <section class="contact-details">
+            <h2>Contact Details</h2>
+            <ul>
+              <li><strong>Email:</strong> gocaraccess981@gmail.com</li>
+              <li><strong>Phone:</strong> 7011117083</li>
+              <li><strong>Address:</strong> Go Car Accessories, B-131a, Sector 16, <br> Noida, Pin code-201301</li>
+            </ul>
+          </section>
+          <section class="map-section">
+            <h2>Location</h2>
+            <!-- Google Maps Embed -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3503.755551711016!2d77.31333797549881!3d28.577102275695022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDM0JzM3LjYiTiA3N8KwMTgnNTcuMyJF!5e0!3m2!1sen!2sin!4v1711626923462!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </section>
         <!--==================== POPULAR ====================-->
         <section class="popular section" id="popular">
             <h2 class="section__title">
-                Choose Your Electric Car <br> of Porshche Brand
+                Car Accessories <br> List
             </h2>
             <div class="popular__container container swiper">
                 <div class="swiper-wrapper">
@@ -300,40 +335,9 @@
 
         </section>
 
-        <!--==================== FEATURES ====================-->
-        <section class="features section">
-            <h2 class="section__title">
-                More Features
-            </h2>
-
-            <div class="features__container container grid">
-                <div class="features__group">
-                    <img src="assets/img/features.png" alt="" class="features__img">
-
-
-                    <div class="features__card features__card-1">
-                        <h3 class="features__card-title">800v</h3>
-                        <p class="features__card-description">Turbo <br> Chargin</p>
-                    </div>
-
-                    <div class="features__card features__card-2">
-                        <h3 class="features__card-title">350</h3>
-                        <p class="features__card-description">Km <br> Range</p>
-                    </div>
-                    <div class="features__card features__card-3">
-                        <h3 class="features__card-title">480</h3>
-                        <p class="features__card-description">Km <br> Travel</p>
-                    </div>
-                </div>
-            </div>
-
-            <img src="assets/img/map.svg" alt="" class="features__map">
-
-        </section>
-
         <!--==================== FEATURED ====================-->
         <section class="featured section" id="featured">
-            <h2 class="section__title">Featured Luxury Cars</h2>
+            <h2 class="section__title">Accessories</h2>
             <div class="featured__container container">
                 <ul class="featured__filters">
                     <li>
@@ -441,20 +445,22 @@
                     </h2>
 
                     <p class="offer__description">Be the first to receive all the information about our
-                        products and new cars by email by subscribing to our
+                        products and car accessories by email by subscribing to our
                         mailing list.</p>
 
-                    <a href="#" class="button">Subscribe Now</a>
+                    <a href="#contact" class="button">Subscribe Now</a>
                 </div>
 
-                <img src="assets/img/offer.png" alt="" class="offer__img">
+                    <img src="assets/img/logo.png" alt="" class="offer__img"> 
+                </div>
 
             </div>
 
         </section>
 
-        <!--==================== LOGOS ====================-->
-        <section class="logos section">
+
+         <!--==================== LOGOS ====================-->
+          <!--    <section class="logos section">
             <div class="logos__container container grid">
                 <div class="logos__content">
                     <img src="assets/img/logo1.png" alt="" class="logos__img">
@@ -475,11 +481,8 @@
                     <img src="assets/img/logo2.png" alt="" class="logos__img">
                 </div>
 
-            </div>
-
-
-
-        </section>
+            </div> 
+        </section> -->
     </main>
 
     <!--==================== FOOTER ====================-->
@@ -490,13 +493,13 @@
         <div class="footer__container container grid">
             <div class="footer__content">
                 <a href="#" class="footer__logo">
-                    <i class="ri-steering-line"></i>
-                    NextCar
+                    <i class="ri-car-line"></i>
+                    GoCarRetail
                 </a>
                 <p class="footer__description">
-                    We offer the best cars of <br>
+                    We offer the best cars accessories of <br>
                     the most recognized brands in <br>
-                    the world.
+                    the India.
                 </p>
             </div>
 
@@ -507,19 +510,10 @@
 
                 <ul class="footer__links">
                     <li>
-                        <a href="#" class="footer__links">About</a>
+                        <a href="" class="footer__links">Home</a>
                     </li>
                     <li>
-                        <a href="#" class="footer__links">Cars</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer__links">History</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer__links">Shop</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer__links"></a>
+                        <a href="about/" class="footer__links">About</a>
                     </li>
                 </ul>
             </div>
@@ -528,16 +522,10 @@
                 <h3 class="footer__title">Information </h3>
                 <ul class="footer__links">
                     <li>
-                        <a href="#" class="footer__links">Request a quote</a>
+                        <a href="contact/" class="footer__links">Contact us</a>
                     </li>
                     <li>
-                        <a href="#" class="footer__links">Find a dealer</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer__links">Contact us</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer__links">Services</a>
+                        <a href="#" class="footer__links">Accessories & Parts</a>
                     </li>
 
                 </ul>
@@ -567,7 +555,7 @@
             </div>
         </div>
         <span class="footer__copy">
-            &#169; 2024 <a target="_blank" href="abdullahmoin.web.app" class="footer__dev-link">GoCarRetail.</a> All rigths
+            &#169; 2024 <a target="_blank" href="https://gocarretail.in" class="footer__dev-link">GoCarRetail.</a> All rigths
             reserved
             <p id="date"></p>
         </span>
@@ -592,7 +580,6 @@
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
-
 
 
 </body>
