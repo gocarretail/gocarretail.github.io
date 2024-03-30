@@ -527,7 +527,7 @@ transform: scale(1.2);
 
 }
 .popular__img{
-  width: 160px;
+  width: 140px;
   margin: .75rem 0 1.25rem 1.5rem;
   transition: .3s;
 }
@@ -1090,7 +1090,7 @@ transform: scale(1.2);
     margin-bottom: 5rem;
   }
   .popular__img{
-    width: 180px;
+    width: 150px;
     margin: .75rem 0 1.25rem 2rem;
   }
   .features__container{
