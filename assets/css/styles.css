@@ -1350,6 +1350,25 @@ main {
   margin-bottom: 40px;
 }
 
+.qpo__img{
+  position: relative;
+}
+
+.qpo__img{
+  width: 200px;
+  margin: .40rem 0 1.25rem 0;
+  transition: .3s;
+}
+
+.qpo__img{
+  transform: translateY(-.5rem);
+}
+
+.qpo__img{
+  width: 850px;
+  margin: .40rem 0 1.25rem 0;
+  align-self: center;
+}
 .about-section h2,
 .mission-section h2,
 .products-section h2,
